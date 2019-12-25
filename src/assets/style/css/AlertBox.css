@@ -1,0 +1,146 @@
+/* 警示框 */
+.addMedical_alert {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	background: rgba(0, 0, 0, 0.3);
+}
+/* 警示框本体 */
+.alert {
+	width: 400px;
+	height: 246px;
+	border: 1px solid #707070;
+	border-radius: 10px;
+	background: white;
+	/* 定位 */
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -150px;
+}
+/* 警示框标题部分 */
+.alert_title {
+	width: 92%;
+	height: 20%;
+	margin: auto;
+}
+.alert_title h2 {
+	padding-top: 26px;
+	font-size: 22px;
+	color: #333333;
+}
+.alert_title i {
+	padding-top: 20px;
+	font-size: 20px;
+	color: #979898;
+	transition: all 0.2s;
+}
+.alert_title i:hover {
+	font-size: 26px;
+	color: #16DCB8;
+}
+
+
+/* 警示框内容部分 */
+.alert_content {
+	width: 90%;
+	height: 45%;
+	padding-left: 10px;
+	margin: auto;
+}
+.alert_tip {
+	padding-top: 25px;
+}
+.alert_con_check {
+	height: 100%;
+}
+.alert_con_check>p {
+	padding-top: 40px;
+	padding-bottom: 10px;
+	font-size: 18px;
+	font-weight: 300;
+	color: #333333;
+}
+.alertIpt_wrapDiv {
+	height: 30%;
+	padding: 4px;
+	border: 1px solid #32c0e6;
+	border-radius: 5px;
+}
+.phoneNum {
+	width: 100%;
+	height: 100%;
+	border-width: 0;
+	outline: none;
+	font-size: 18px;
+	font-weight: 300;
+}
+.alert_con_tip {
+	height: 100%;
+	text-align: center;
+}
+.alert_con_tip>p {
+	padding-top: 50px;
+	font-size: 18px;
+	font-weight: 300;
+	color: #333333;
+}
+
+/* 警示框按钮区域 */
+.alert_button {
+	width: 92%;
+	height: 35%;
+	margin: auto;
+}
+/* 查询时的样式 */
+.alert_button_check {
+	height: 100%;
+	/* 弹性布局 */
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+/* 取消按钮样式 */
+.cancleBtn {
+	width: 28%;
+	margin-left: 30px;
+}
+/* 提示时的样式 */
+.alert_button_tip {
+	height: 100%;
+	text-align: center;
+}
+.alert_button_tip input {
+	margin-top: 15px;
+	width: 40%;
+}
+/* 按钮区域input的整体样式 */
+.alert_button input {
+	border-width: 0;
+	height: 32px;
+	border-radius: 20px;
+	font-size: 16px;
+	color: white;
+	outline: none;
+}
+.alert_surebtn {
+	width: 28%;
+	background: #16DCB8;
+}
+.alert_canclebtn {
+	width: 100%;
+	background: #979898;
+}
+.alert_surebtn:hover {
+	border: 1px solid #16DCB8;
+	background: white;
+	color: #16DCB8;
+}
+.alert_canclebtn:hover {
+	border: 1px solid red;
+	background: white;
+	color: red;
+}

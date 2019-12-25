@@ -1,0 +1,201 @@
+/**
+ * 外部控制元素
+ */
+.medical_detail_wrap {
+	height: 100%;
+}
+
+/* 病历夹 */
+.medicalDetail_title {
+	height: 10%;
+	/* 弹性布局 */
+	display: flex;
+	align-items: flex-end;
+}
+
+.medicalDetail_title>div {
+	padding-bottom: 13px;
+}
+
+.medicalDetail_title_left {
+	width: 168px;
+	/* 禁止放缩 */
+	flex-grow: 0;
+	border-bottom: 2px solid #16DCB8;
+	font-size: 24px;
+	color: #333333;
+}
+
+.medicalDetail_title_right {
+	/* 放大比例 */
+	flex-grow: 1;
+	border-bottom: 1px solid #999999;
+	text-align: right;
+	color: #f96464;
+}
+
+.medicalDetail_editDiv {
+	/* 鼠标手势 */
+	cursor: pointer;
+}
+
+.medicalDetail_editDiv:hover {
+	color: red;
+}
+
+/* 病历内容 */
+.medicalDetail_content {
+	height: 90%;
+}
+
+.medicalDetail_content_form {
+	height: 100%;
+	background: url(../../assets/doctor/medical_bg.png) no-repeat center;
+	background-size: 100%;
+	/* 弹性布局 */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+/* 左, 右 */
+.medicalDetail_con_side {
+	width: 30%;
+	height: 84%;
+}
+
+/* 中间 */
+.medicalDetail_con_mid {
+	width: 33%;
+	height: 84%;
+}
+
+/* 底部 */
+.medicalDetail_con_bot {
+	width: 100%;
+	height: 16%;
+	font-size: 0;
+	/* 弹性布局 */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/**
+	 * 左侧
+	 */
+/* 左侧内部内容 */
+.detail_con_left_side_row {
+	height: 20%;
+	padding-left: 10px;
+}
+
+/* 整行显示的input */
+.detail_inp10 {
+	width: 94%;
+	padding: 6px;
+	font-size: 16px;
+	outline: none;
+}
+
+.detail_inp8 {
+	width: 86%;
+	padding: 6px;
+	font-size: 16px;
+	outline: none;
+}
+
+/* p标签 */
+.medicalDetail_content_form p {
+	padding: 14px 0;
+	font-size: 14px;
+	color: #999999;
+}
+
+/* 一行中两列排列的div */
+.detail_side_doubuleCol {
+	/* 弹性布局 */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.detail_side_doubuleCol div {
+	width: 48%;
+}
+
+.detail_side_doubuleCol span {
+	padding: 0 5px;
+}
+
+
+/**
+ * 中间
+ */
+/* 病情描述 div */
+.diseaseDes_wrap {
+	height: 40%;
+}
+
+/* 病情描述文本域 */
+.diseaseTextarea {
+	resize: none;
+	height: 60%;
+	border: 1px solid #dddddd;
+}
+
+/**
+ * 右侧
+ */
+.detail_con_right_side_row {
+	height: 32%;
+}
+
+.detail_upload_wrap {
+	background: url(../../assets/doctor/upload_bg.png) no-repeat center;
+	background-size: 100%;
+}
+
+/* 上传按钮 */
+.detail_upload {
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+}
+
+
+/**
+ * 底部
+ */
+.medicalDetail_con_bot input {
+	width: 140px;
+	height: 38px;
+	margin: 0 50px;
+	border-width: 0;
+	color: white;
+	font-size: 16px;
+	line-height: 38px;
+	outline: none;
+}
+
+.detail_save {
+	background: #16DCB8;
+}
+
+.detail_cancle {
+	background: #999999;
+}
+
+.detail_save:hover {
+	border: 1px solid #16DCB8;
+	color: #16DCB8;
+	border-radius: 5px;
+	background: white;
+}
+
+.detail_cancle:hover {
+	border: 1px solid #F0F0F0;
+	color: red;
+	background: white;
+	border-radius: 5px;
+}

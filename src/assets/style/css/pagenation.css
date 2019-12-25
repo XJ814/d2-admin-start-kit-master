@@ -1,0 +1,112 @@
+/* 组件整体 */
+.page {
+	height: 100%;
+	text-align: center;
+	color: #888;
+}
+/* 组件内层 list */
+.pagelist {
+	height: 100%;
+	padding: 0 20px;
+	background: #fff;
+	font-size: 0;
+	line-height: 20px;
+	/* 弹性布局 */
+	display: flex;
+	align-items: center;
+}
+/* 组件字体控制 */
+.pagelist span {
+	font-size: 12px;
+}
+/* 上一页/下一页 */
+.pagelist .controlPage {
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	border: 1px solid #16dcb8;
+	margin: 0 10px;
+	border-radius: 50%;
+	font-size: 18px;
+	line-height: 25px;
+	color: #16dcb8;
+}
+.pagelist .controlPage:hover {
+	color: white;
+	background: #16dcb8;
+}
+
+/* 每个页码 */
+.pagelist .jump {
+	width: 20px;
+	height: 20px;
+	margin-left: 5px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	cursor: pointer;
+}
+/* 当前页 */
+.pagelist .bgprimary {
+	cursor: default;
+	color: #fff;
+	background: #16dcb8;
+}
+/* 输入框 */
+.jumpinp input {
+	width: 30px;
+	height: 26px;
+	margin: 0 4px;
+	font-size: 13px;
+	border: 1px solid #ccc;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	text-align: center;
+}
+/* 省略号 */
+.ellipsis {
+	padding: 0px 8px;
+}
+/* 到 */
+.jumppoint {
+	margin-left: 30px;
+}
+/* GO */
+.pagelist .gobtn {
+	width: 30px;
+	height: 30px;
+	margin-left: 10px;
+	background: #16dcb8;
+	font-size: 12px;
+	line-height: 30px;
+	color: white;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	/* 消除默认样式 */
+	border-width: 0;
+	outline: none;
+}
+.page .pagelist .gobtn.disabled {
+	background: #DDDDDD;
+}
+
+/* 不能被选中 */
+.pagelist .controlPage.disabled {
+	pointer-events: none;
+	background: #ddd;
+	color: white;
+	border-width: 0;
+}
+
+/* 禁止选中标签内文本 */
+.noSelect {
+	/* 禁止选中文本 */
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+

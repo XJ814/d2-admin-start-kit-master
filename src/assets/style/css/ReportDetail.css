@@ -1,0 +1,149 @@
+/* 报告详情页面样式 */
+.reportDetail_patientInfo, .reportDetail_con, .reportDetail_foot {
+	width: 100%;
+	height: 100%;
+}
+/* 一, 病人信息 */
+.reportDetail_patientInfo {
+	/* 字体 */
+	font-size: 14px;
+}
+/* 左侧 */
+.repDet_patientWrap {
+	width: 70%;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.repDet_patientWrap span {
+	color: #333333;
+}
+/* 右侧 */
+.repDet_patientEditWrap {
+	width: 30%;
+	height: 100%;
+}
+/* 右侧修改按钮 */
+.repDet_edit {
+	width: 35%;
+	text-align: right;
+	line-height: 45px;
+	color: #f96464;
+	/* 鼠标形状 */
+	cursor: pointer;
+}
+.repDet_edit:hover {
+	color: red;
+}
+/* 右侧取消保存按钮 */
+.repDet_saveChange {
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	/* 字体 */
+	color: white;
+	text-align: center;
+}
+.repDet_saveChange div {
+	width: 60px;
+	padding: 5px;
+	margin-right: 10px;
+	border-radius: 30px;
+	/* 鼠标形状 */
+	cursor: pointer;
+}
+/* 取消 */
+.repDet_cancle {
+	background: #f96464;
+}
+.repDet_cancle:hover {
+	border: 1px solid red;
+	color: red;
+	background: white;
+}
+/* 保存 */
+.repDet_save {
+	border: 1px solid #3be1c3;
+	background: #3be1c3;
+}
+.repDet_save:hover {
+	color: #3be1c3;
+	background: white;
+}
+
+/* 二, 要修改的信息 */
+.reportDetail_con {
+	height: 98%;
+	padding-top: 10px;
+	border-bottom: 1px solid #707070;
+}
+.reportDetail_con_item {
+	height: 14%;
+	margin-bottom: 10px;
+	/* 字体 */
+	font-size: 14px;
+	color: #333333;
+}
+
+.reportDetail_con_item span {
+	display: inline-block;
+	width: 10%;
+	padding-top: 6px;
+	text-align: right;
+	color: #999999;
+}
+.reportDetail_con_item textarea {
+	float: right;
+	width: 88%;
+	height: 92%;
+	padding: 2px 4px;
+	border: none;
+	background: rgba(0, 0, 0, 0);
+	border-radius: 2px;
+	outline: none;
+	resize: none;
+	/* 文本 */
+	vertical-align: top;
+	font-size: 14px;
+}
+/* 修改时的样式 */
+.reportDetail_con_item .editItem {
+	border: 1px solid #aaaaaa;
+	background: white;
+}
+.reportDetail_con_item textarea:focus {
+	border: 1px solid #32c0e6;
+}
+
+/* 三, 报告医生, 审核医生等 */
+.reportDetail_wrap .medical_control {
+	background: rgba(0, 0, 0, 0);
+}
+.reportDetail_foot {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* 字体 */
+	font-size: 14px;
+	color: #333333;
+}
+
+/* 查看附件 */
+.reportDetail_foot .lookaccessory {
+	width: 80px;
+	height: 16px;
+	padding: 5px;
+	border: 1px solid #16DCB8;
+	background: #16DCB8;
+	border-radius: 2px;
+	color: white;
+	text-align: center;
+	/* 鼠标形状 */
+	cursor: pointer;
+}
+.lookaccessory:hover {
+	background: white;
+	color: #16DCB8;
+}

@@ -1,0 +1,140 @@
+/* 头部添加病历 */
+.medical_wrap .add_medical {
+	background: url(../../assets/title_bg.png) no-repeat 5px -48px;
+	color: #333333;
+	/* 鼠标形状 */
+	cursor: pointer;
+}
+.add_medical a {
+	padding-top: 10px;
+}
+
+
+/**
+ * 一, 搜索框区域
+ */
+.medical_search {
+	height: 8%;
+}
+.medical_search_form {
+	height: 90%;
+	padding-top: 5px;
+	/* 弹性布局 */
+	display: flex;
+	align-items: center;
+}
+.medical_search_form_inp {
+	width: 150px;
+	height: 26px;
+	padding: 2px 15px;
+	border: 1px solid #cccccd;
+	margin-right: 10px;
+	border-radius: 15px;
+}
+.medical_search_form_inp input {
+	width: 100%;
+	height: 100%;
+	border-width: 0;
+	outline: none;
+}
+.medical_search_btn {
+	width: 25px;
+	height: 25px;
+	background: #16dcb8;
+	border-radius: 50%;
+	color: white;
+	text-align: center;
+	line-height: 25px;
+	font-size: 12px;
+	/* 鼠标形状 */
+	cursor: pointer;
+}
+.medical_search_btn:hover {
+	border: 1px solid #16DCB8;
+	color: #16DCB8;
+	background: white;
+}
+
+
+/**
+ * 二, 内容区域
+ */
+.medical_content {
+	height: 84%;
+}
+/* table列表 */
+.medical_list {
+	width: 100%;
+	height: 100%;
+	padding-top: 800px;
+	text-align: center;
+	/* 边框 */
+	border-collapse: collapse;
+}
+.medical_list tr:nth-child(n + 2) {
+	height: 45px;
+	/* height: 9%; */
+}
+/* 标题行 */
+.medicai_list_title {
+	height: 14px;
+	line-height: 16px;
+	color: #999999;
+	font-size: 12px;
+}
+.medicai_list_title th {
+	font-weight: normal;
+}
+/* 第一列选框宽度 */
+.medicai_list_check {
+	width: 4%;
+}
+/* 内容行 */
+.medicai_list_item {
+	height: 9%;
+	font-size: 14px;
+	color: #333333;
+	border-bottom: 1px solid #dddddd;
+}
+/* 查看详情 */
+.medicai_list_lookdetails {
+	padding: 4px;
+	background: #16dcb8;
+	border-radius: 4px;
+	color: white;
+	font-size: 12px;
+}
+.medicai_list_lookdetails:hover {
+	outline: 1px solid #16DCB8;
+	color: #16DCB8;
+	background: white;
+}
+
+/**
+ * 三, 页码操作控制区域
+ */
+.medical_control {
+	height: 8%;
+	background: white;
+}
+
+.medical_delete {
+	float: left;
+	width: 12%;
+	height: 60%;
+	padding: 0 6px;
+	margin: 8px;
+	margin-right: 50px;
+	border-radius: 50px;
+	font-size: 14px;
+	color: white;
+	line-height: 26px;
+	text-align: center;
+	background: #f96464;
+	/* 鼠标形状 */
+	cursor: pointer;
+}
+
+.medical_pagenation {
+	height: 100%;
+}
