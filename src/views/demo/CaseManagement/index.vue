@@ -18,8 +18,8 @@
 <!--        列表循环部分-->
         <el-table ref="multipleTable" :data="tables" tooltip-effect="dark" style="width: 100%" @selection-change="handleSelectionChange">
             <el-table-column type="selection" width="55"></el-table-column>
-            <el-table-column prop="med_id" label="序号" width="140"></el-table-column>
-            <el-table-column prop="med_name" label="姓名" width="140"></el-table-column>
+            <el-table-column prop="med_id" label="序号" width="120"></el-table-column>
+            <el-table-column prop="med_name" label="姓名" width="120"></el-table-column>
             <el-table-column prop="med_gender" label="性别" width="140"></el-table-column>
             <el-table-column prop="med_age" label="年龄" width="140"></el-table-column>
             <el-table-column prop="med_department" label="就诊科室" width="160"></el-table-column>

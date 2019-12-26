@@ -19,6 +19,7 @@
 </template>
 <script>
 export default {
+
   name:'Home',
   data () {
     return {
@@ -30,8 +31,10 @@ export default {
       iconName: 'fa-eye',
       isPwdShow: false,
     }
+
   },
   methods: {
+
     changePwdType(){
       this.isPwdShow = !this.isPwdShow
       if (this.isPwdShow) {
@@ -50,6 +53,12 @@ export default {
         alert("账号密码不能为空")
       }
     }
+  },
+  created () {
+    // 阻止登录页面后退
+    history.pushState(null,null, document.URL);
+    window.addEventListener('popstate',function(){history.pushState(null,null, document.URL);        });
+
   }
 }
 </script>

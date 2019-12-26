@@ -17,8 +17,8 @@
                       @selection-change="handleSelectionChange">
                 <el-table-column type="selection" width="70"></el-table-column>
                 <el-table-column prop="med_id" label="序号" width="80"></el-table-column>
-                <el-table-column prop="med_name" label="姓名" width="140"></el-table-column>
-                <el-table-column prop="med_gender" label="性别" width="160"></el-table-column>
+                <el-table-column prop="med_name" label="姓名" width="120"></el-table-column>
+                <el-table-column prop="med_gender" label="性别" width="140"></el-table-column>
                 <el-table-column prop="med_age" label="年龄" width="160"></el-table-column>
                 <el-table-column prop="med_hospitalTime" label="日期" width="160"></el-table-column>
                 <el-table-column prop="med_problemDes" label="问题描述" width="240"></el-table-column>
