@@ -30,6 +30,7 @@ export default {
       inputType: 'password',
       iconName: 'fa-eye',
       isPwdShow: false,
+      
     }
 
   },
