@@ -17,6 +17,8 @@ Vue (读音 /vjuː/，类似于 view) 是一套用于构建用户界面的渐进
 
   
 
+
+
 ## [#](https://d2.pub/zh/doc/d2-admin/learn/start.html#安装依赖)安装依赖
 
 将终端切换到项目目录之后安装依赖：将终端切换到项目目录之后安装依赖：
@@ -47,3 +49,11 @@ npm start
 ```
 npm run serve
 ```
+
+
+
+* * *
+
+### [项目链接](https://github.com/XJ814/d2-admin-start-kit-master)  
+
+### 我的[Git](https://github.com/XJ814)主页
