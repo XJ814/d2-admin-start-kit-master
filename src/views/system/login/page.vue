@@ -48,7 +48,7 @@ export default {
     loginHandler() {
       if (this.userName.length > 0 && this.userPwd.length > 0) {
         // 重定向对象不存在则返回顶层路径
-        this.$router.replace(this.$route.query.redirect || '/')
+        this.$router.replace(this.$route.query.redirect || '/index')
       } else {
         alert("账号密码不能为空")
       }

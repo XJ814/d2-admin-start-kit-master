@@ -154,14 +154,14 @@
 
         .message {
             float: left;
-            margin-right: 100px;
+            margin-right: 99px;
         }
     }
     /*中间部分*/
     .middle_div {
         /*border: 1px solid darkcyan;*/
         width: 90%;
-        padding: 0 4%;
+        padding: 20px 4%;
         height: 670px;
     }
     /*输入框样式*/

@@ -25,7 +25,7 @@
                 <el-table-column prop="med_mainSymptoms" label="主要症状" width="260"></el-table-column>
                 <el-table-column prop="med_medicine" label="所用药物" width="260"></el-table-column>
                 <el-table-column label="操作" width="140">
-                    <el-button size="mini" type="success" @click="open3">查看详情</el-button>
+                    <el-button size="mini" type="success" @click="open3">回复咨询</el-button>
                 </el-table-column>
             </el-table>
 <!--            底部列表部分-->

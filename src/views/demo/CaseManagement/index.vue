@@ -61,7 +61,7 @@
       return {
         input:'',
         input1:'',
-        currentPage3: 5,
+        currentPage3: 1,
         medical_lists: [
           {
             med_id: '1',
